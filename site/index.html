@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ice Cream Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+        }
+        .price {
+            font-weight: bold;
+            color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+<h1>🍦 Ice Cream Menu</h1>
+<div class="grid">
+
+    <div class="card">
+        <h2>Vanilla</h2>
+        <p>Classic vanilla made with real beans</p>
+        <p class="price">$2.40</p>
+    </div>
+    
+    <div class="card">
+        <h2>Chocolate</h2>
+        <p>Rich dark chocolate ice cream</p>
+        <p class="price">$2.80</p>
+    </div>
+    
+    <div class="card">
+        <h2>Strawberry</h2>
+        <p>Fresh strawberry with real fruit</p>
+        <p class="price">$2.60</p>
+    </div>
+    
+    <div class="card">
+        <h2>Mint Chip</h2>
+        <p>Mint ice cream with chocolate chips</p>
+        <p class="price">$2.80</p>
+    </div>
+    
+    <div class="card">
+        <h2>Torroncino</h2>
+        <p>An Italian class with nuts topping</p>
+        <p class="price">$3.60</p>
+    </div>
+    
+</div>
+</body>
+</html>
