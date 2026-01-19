@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "data/**/*.csv"
+      - "*.csv"
       - "generator/**"
 
 jobs:
