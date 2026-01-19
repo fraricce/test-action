@@ -2,7 +2,7 @@ import csv
 from pathlib import Path
 
 # Paths
-CSV_FILE = Path("data/icecream.csv")
+CSV_FILE = Path("icecream.csv")
 OUTPUT_DIR = Path("site")
 OUTPUT_FILE = OUTPUT_DIR / "index.html"
 
