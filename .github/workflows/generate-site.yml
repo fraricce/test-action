@@ -30,7 +30,7 @@ jobs:
 
       - name: Generate site
         run: |
-          python generator/build.py
+          python build.py
 
       - name: Commit generated site
         uses: stefanzweifel/git-auto-commit-action@v5
